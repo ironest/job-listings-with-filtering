@@ -40,7 +40,7 @@ Users should be able to:
 
 ### Links
 
-- Repository URL: [github.com/ironest/product-list-with-cart](https://github.com/ironest/product-list-with-cart)
+- Repository URL: [github.com/ironest/job-listings-with-filtering](https://github.com/ironest/job-listings-with-filtering)
 - Live Demo URL: [product-list-with-cart-amber.vercel.app](https://product-list-with-cart-amber.vercel.app)
 
 ## My process
