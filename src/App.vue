@@ -29,7 +29,11 @@ header {
 
 main {
   max-width: 1110px;
-  margin: 0 auto 32px;
-  padding: 0 24px 34px;
+  margin: 0 auto 34px;
+  padding: 0 24px;
+
+  @media only screen and (min-width: 1024px) {
+    padding: 0;
+  }
 }
 </style>

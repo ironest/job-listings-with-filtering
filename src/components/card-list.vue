@@ -61,6 +61,7 @@ const filteredJobs = computed((): Job[] => {
 
   @media only screen and (min-width: 1024px) {
     margin-top: 76px;
+    gap: 24px;
   }
 }
 </style>
