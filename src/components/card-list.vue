@@ -36,5 +36,9 @@ const filteredJobs = computed((): Job[] => {
   display: flex;
   flex-direction: column;
   gap: 40px;
+
+  @media only screen and (min-width: 1024px) {
+    margin-top: 76px;
+  }
 }
 </style>

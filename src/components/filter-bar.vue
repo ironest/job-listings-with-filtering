@@ -67,9 +67,8 @@ const removeFilter = (filter: string) => {
   display: flex;
   align-items: center;
   gap: 16px;
-  margin-top: -32px;
+  margin-top: -36px;
   background-color: white;
-  /* margin: 120px 24px 24px; */
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0px 15px 20px -5px $color-shadow;
@@ -89,6 +88,10 @@ const removeFilter = (filter: string) => {
       color: $color-primary;
       text-decoration: underline;
     }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    margin-bottom: -36px;
   }
 }
 
