@@ -22,7 +22,7 @@ header {
   background-position: top right;
   background-color: $color-background-header;
 
-  @media only screen and (min-width: 800px) {
+  @media only screen and (min-width: 1024px) {
     background-position: top center;
   }
 }
