@@ -2,8 +2,6 @@
 import CardList from "./components/card-list.vue";
 import FilterBar from "./components/filter-bar.vue";
 import { useStore } from "vuex";
-
-const store = useStore();
 </script>
 
 <template>
