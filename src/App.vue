@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import CardList from "./components/card-list.vue";
 import FilterBar from "./components/filter-bar.vue";
-import { useStore } from "vuex";
 </script>
 
 <template>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ComputedRef, onMounted } from "vue";
+import { computed, onMounted } from "vue";
 import Card from "./card.vue";
 import { useStore } from "vuex";
 import { Job } from "../types/Job";
