@@ -26,12 +26,9 @@ This is a solution to the [Job listings with filtering app challenge on Frontend
 
 Users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Adding/increasing dessert items to the cart
-- Removing/decreasing quantity of dessert items to the cart
-- Deleting stack of items from the cart
-- Submit an order
+- Filter job listings based on the categories selected
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
 ### Screenshot
 
