@@ -68,7 +68,7 @@ const setFilter = (filter: string) => {
         color: $color-primary;
         font-size: 13px;
         font-weight: $font-weight-bold;
-        margin-right: auto;
+        margin-right: 15px;
       }
       .new,
       .featured {
