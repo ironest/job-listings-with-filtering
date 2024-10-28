@@ -102,7 +102,22 @@ const setFilter = (filter: string) => {
       line-height: 24px;
       display: flex;
       flex-wrap: wrap;
-      gap: 20px;
+      gap: 36px;
+
+      span::before {
+        content: "";
+        position: absolute;
+        margin-left: -18px;
+        margin-top: 9px;
+        width: 4px;
+        height: 4px;
+        border-radius: 50px;
+        background-color: $color-secondary;
+      }
+
+      span:first-child::before {
+        display: none;
+      }
     }
   }
   .tags {
@@ -121,6 +136,7 @@ const setFilter = (filter: string) => {
       font-size: 16px;
       font-weight: $font-weight-bold;
       border: 0;
+      letter-spacing: -0.12px;
       cursor: pointer;
 
       &:hover {
